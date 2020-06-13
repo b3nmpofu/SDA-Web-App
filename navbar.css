@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+  box-sizing: border-box;
+  }
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  background-color: white;
+  }
+
+.brand-title img{
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+}
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li{
+  list-style: none;
+
+}
+.navbar-links li a{
+  text-decoration: none;
+  color: #1264A0;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover{
+  background-color: #1264A0;
+
+
+}
+.navbar-links li a:hover{
+
+  color:white;
+}
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;/*lines on top of each other*/
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #1264A0;
+  border-radius: 10px;
+}
+
+.contact{
+  display: inline-flex;
+  width: 100%;
+  background-color: black;
+
+
+}
+.box{
+  padding: 20px;
+  right:50%;
+}
+.contact .box a i{
+  font-size: 25px;
+  color: #1264A0;
+  transition: 0.2s linear;
+}
+
+.box:hover i{
+  transform: scale(1.3);
+}
+
+
+
+.footer{
+  text-align: center;
+  height: 50px;
+  background-color: #1264A0;
+  bottom:0px;
+}
+.footer p{
+  color: white;
+  font-family: monospace;
+}
+.foot{
+  font-size: 20px;
+}
+@media (max-width:1028px) {
+  .toggle-button{
+    display: flex;
+  }
+.navbar-links{
+  display: none;
+  width: 100%;
+
+}
+.navbar-links li a{
+
+  color: #1264A0;
+}
+.navbar-links li a:hover{
+  color: white;
+
+}
+.navbar{
+  flex-direction: column;
+  align-items: flex-start;
+  }
+.navbar-links ul{
+  width: 100%;
+  flex-direction: column;
+}
+
+.navbar li{
+  text-align: center;
+}
+
+.navbar li a{
+  padding: .5rem 1rem;
+}
+.navbar-links.active{
+  display: flex;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.options{
+  flex-direction: column;
+  align-items: flex-start
+}
+.opt{
+  width: 100%;
+  padding: 20%;
+
+  margin: 0;
+  box-shadow:0;
+  }
+  .opt i{
+    line-height: 50%;
+  }
+}

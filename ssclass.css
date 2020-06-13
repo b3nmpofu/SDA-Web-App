@@ -1,0 +1,13 @@
+.ssclass{
+  padding: 10px;
+}
+.classes{
+  background-color: #f0f0f0;
+  max-width: 100%;
+  padding: 20px;
+  margin: 20px;
+  color: #1264A0;
+}
+ .classes a {
+   text-decoration: none;
+ }

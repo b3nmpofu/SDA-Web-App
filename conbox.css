@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+  .conbox{
+  background-color: red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+.inconbox{
+  display: flex;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+.inconbox h2 {
+  color:  black;
+}
+
+.lozo img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text{
+  width: 70%;
+  height: 100%;
+  padding: 0 10px;
+
+}
+.lozo{
+  width: 30%;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  table{
+    display: none;
+  }
+
+    .inconbox{
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 0;
+    box-shadow: 0 5px 15px -5px #00000070;
+  }
+  .lozo{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .lozo img{
+
+    width: 50%;
+    padding: 0px;
+  }
+  .text{
+  width: 100%;
+  padding: 0 10px;
+  }
+
+   h2{
+     padding: 10px;
+  }
+  p{
+    font-size: 20px;
+    }
+
+}

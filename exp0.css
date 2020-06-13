@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  }
+
+  .container{
+    /*margin:60px;*/
+    padding: 50px 60px;
+    background-color: white;
+    align-items: center;
+
+  }
+
+  .container1{
+  max-width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+
+.vect{
+  height:50%;
+  padding: 20px;
+}
+.incont{
+  width: 35vh;
+  height:45vh;
+  background-color:white;
+  text-align: center;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #1264A0;
+  border-width: 5px;
+  color: #1264A0;
+}
+.intext{
+  padding: 20px;
+}
+.intext p{
+  font-size: 180%;
+}
+
+.incont:hover{
+  background-color: #1264A0;
+  color: white
+  }
+
+.incont .fa,.incont .fas,.incont .far {
+    color: #1264A0 !important;
+}
+.fas:hover ,.far:hover ,.fa:hover {
+        /* Use your color here (!important will force it to use this color for any FA elements */
+	color:white !important;
+}
+@media (max-width:1028px){
+.container{
+  padding: 0px;
+
+}
+  .container1{
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+
+  }
+  .incont{
+    margin: 10px;
+    width: 80%;
+    align-items: center;
+    height:10%;
+    }
+    .vect{
+      height:50%;
+      padding: 30px 5px;
+    }
+    .intext p{
+      font-size: 250%;
+        }
+
+}
